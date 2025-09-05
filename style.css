@@ -1,0 +1,24 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+header h1 { color: #2c3e50; }
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+.item-price { font-weight: bold; color: #f57c00; }
+footer { text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #555; }
